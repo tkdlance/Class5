@@ -1,0 +1,55 @@
+body {
+    background: black;
+    width: 800px;
+    margin: auto;
+}
+/*This is how you save a comments*/
+h1 {
+    color: maroon;
+    text-align: center;
+}
+
+.padding-20{
+	padding : 1px;
+}
+
+.myBox{
+	display : inline-block; /*options are inline, block, or inline-block
+	As a side note if you use inline-block is has a white space inbetween there.*/
+	width : 320px;
+	background : blue;
+    float : left; /*this can put the boxes to the left or right in order*/
+	padding : 40px;
+	
+}
+p {
+    color: gray;
+    border: 1px solid gray;
+	/*text-align: center;*/
+    padding: 10px;
+}
+
+div p{
+	color : white;
+	background : orange;
+	
+}
+
+#box2 {
+	background : maroon;
+}
+
+#para2 {
+	font-size : 20px;
+	color : black;
+}
+
+a{ /*this is a suto class*/
+	color : brown;
+	text-decoration : none; /*This controls the underling or a line thought the text */
+}
+
+a:hover { /* this is a suto class pg62*/
+	color : white;
+	text-decoration : underline;
+}
